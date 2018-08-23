@@ -62,7 +62,7 @@ className = {"searchBar"}
                     onKeyPress=
                     {event => this.onKeyPress(event)}
                     value={inputValue}
-                    placeHolder={"Enter a video to search for"}/>
+                    placeholder={"Enter a video to search for"}/>
 
             
 
