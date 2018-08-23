@@ -52,9 +52,10 @@ class Searchbar extends Component
 
         return (
 
-            <div>
+            
 
                 <input
+className = {"searchBar"}
                     type="text"
                     onChange=
                     {event=>this.handleChange(event)}
@@ -63,7 +64,7 @@ class Searchbar extends Component
                     value={inputValue}
                     placeHolder={"Enter a video to search for"}/>
 
-            </div>
+            
 
         )
     }
