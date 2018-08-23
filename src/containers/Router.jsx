@@ -4,7 +4,7 @@ import {HashRouter, BrowserRouter, Route, Switch, Link} from 'react-router-dom';
 
 //components
 
-import App from "../App";
+import Main from "../containers/Main.jsx";
 import "../styles/main.css";
 
 class Router extends Component {
@@ -26,7 +26,7 @@ class Router extends Component {
             <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
 
                 <Switch>
-                    <Route exact path={`/`} component={App}/>
+                    <Route exact path={`/`} component={Main}/>
                 </Switch>
 
             </BrowserRouter>
