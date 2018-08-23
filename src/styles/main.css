@@ -6,3 +6,13 @@ body {
 html {
   margin: 0;
   padding: 0; }
+
+.video {
+  border: 2px solid red; }
+
+.videoList {
+  border: 2px dotted orange; }
+
+.grid--row {
+  border: 3px dotted orange;
+  padding: 5px; }

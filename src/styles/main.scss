@@ -1,14 +1,35 @@
-
 @import "card.scss";
 
-body{
+body {
 
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-html{
-    margin:0;
-    padding:0;
+html {
+    margin: 0;
+    padding: 0;
+}
+
+$testBorder: 2px solid red;
+$testBorder-secondary: 2px dotted orange;
+.video {
+
+    border: $testBorder;
+}
+
+.videoList {
+
+    border: $testBorder-secondary;
+
+}
+
+.grid {
+
+    //TEST ROW
+    &--row {
+        border: 3px dotted orange;
+        padding: 5px;
+    }
 }
