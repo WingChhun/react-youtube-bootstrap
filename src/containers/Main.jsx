@@ -9,6 +9,17 @@ class Main extends Component
     constructor(props)
     {
         super(props);
+
+        this.state = {
+
+            videos: []
+        }
+    }
+
+    getVideos = (videos) => {
+
+        this.setState({videos})
+        console.log("getVideos", videos);
     }
 
     render()
@@ -19,7 +30,7 @@ class Main extends Component
                 <h1>
                     Main Component</h1>
 
-                <Searchbar/>
+                <Searchbar API_KEY ={API_KEY} getVideos ={this.getVideos}/>
 
             </div>
 
